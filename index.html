@@ -253,35 +253,36 @@
   <p>It is a long established fact that a reader will be distracted by the
     readable content of a page when looking at its layout.</p>
 </div>
- <div class="button mt-3 px-2">
-  <button type="button" class="btn btn-white bg-white text-info" data-toggle="modal" data-target="#exampleModal">
-    Register
-  </button>
-  
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
+ <!--modal will be here  -->
+<!-- Button trigger modal -->
+<button type="button" class="btn bg-white text-primary mx-4 px-5 py-2" data-toggle="modal" data-target="#exampleModalCenter">
+  Register
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-bg-info" id="exampleModalLongTitle">Are you ready?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-bg-danger">
+        <ul>
+          <li>You have to abide by all of our rules and regulations.</li>
+          <li>You accept only prepaid system</li>
+          <li>We don't have any refund system</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Accept</button>
       </div>
     </div>
-  </div> 
-   <!-- <button type="button" class="btn btn-white bg-white px-3 py-2 text-primary">Register</button> -->
-   
-   
-   
-</div> 
+  </div>
+</div>
   </div>
 
 </section>
